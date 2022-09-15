@@ -1,0 +1,33 @@
+h1 {
+    font-size: 65px; 
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+ul {
+    background-color: blue;
+    line-height: 2em;
+    color: yellow;
+}
+.coloração {
+    background-color: bisque;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline; 
+    
+}
+body {
+    font-size: 16px;
+}
+#preto {
+    background-color: black;
+}
+#vermelho {
+    background-color: red;
+}
+#azul {
+    background-color: blue;
+}
