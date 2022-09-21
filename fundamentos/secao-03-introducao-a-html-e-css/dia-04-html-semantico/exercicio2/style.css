@@ -1,0 +1,65 @@
+body {
+    color: aqua;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    border: 1.8px solid red;
+    text-align: center;
+    background-color: red;
+}
+nav {
+    background-color: aqua;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    
+}
+nav ul li a {
+    color: black;
+    
+}
+article {
+    border: 1.5px solid black;
+    margin-right: 300px;
+    
+}
+table {
+    border: 1.5px solid red;
+    
+}
+.classificacao {
+    text-align: center;
+    border-spacing: 0px;
+}
+.classificacao td {
+    border: 5px solid white;
+    padding: 10px;
+    width: 200px;
+
+}
+td {
+    border: 1px solid white;
+}
+aside {
+    border: 1.8px solid red;
+    float: right;
+    height: 500px;
+    position: absolute;
+    right: 100px;
+    top: 145px;
+}
+aside h2 {
+    text-align: center;
+}
+
+footer {
+    border: 1.8px solid yellow;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
