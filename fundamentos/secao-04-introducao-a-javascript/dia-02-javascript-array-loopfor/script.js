@@ -18,7 +18,7 @@
 // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
 
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // let soma = 0;
 // let media = 0;
 
@@ -43,19 +43,19 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 // console.log(maiorNumero)
 
-let numeroImpar = []
- for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 !== 0) {
-        numeroImpar.push(numbers[i])
+// let numeroImpar = []
+//  for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 !== 0) {
+//         numeroImpar.push(numbers[i])
       
-    } 
-} 
-console.log(numeroImpar)
-if (numeroImpar.length !== 0) {
-  console.log(numeroImpar.length)
-} else {
-  console.log("Não existe numeros impar")
-}
+//     } 
+// } 
+// console.log(numeroImpar)
+// if (numeroImpar.length !== 0) {
+//   console.log(numeroImpar.length)
+// } else {
+//   console.log("Não existe numeros impar")
+// }
     
 
  
@@ -66,3 +66,11 @@ if (numeroImpar.length !== 0) {
 // }
 //  }
 //  console.log(menorNumero)
+
+let numeros = []
+
+for (let index = 1; index <= 50; index += 1) {
+       numeros.push(index)
+   }
+   console.log(numeros)
+   console.log('' + numeros)
