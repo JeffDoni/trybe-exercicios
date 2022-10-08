@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> Concuso Trybetrip</h1>
+    <header class="mb-5 text-bg-secondary p-3">
+        <h1 class="display-4">Trybetrip</h1>
 
     </header>
-    <form>
+    <form action="" method="get">
         <section>
             <label for="name">Nome</label>
             <input type="text" id="name" name="fullName" placeholder="Digite seu nome completo" maxlength="40" minlength="10" required>
@@ -24,7 +26,7 @@
             <input type="email" id="email" name="email" placeholder="Digite seu email" maxlength="50" minlength="10" required>
         </section>
         <br>
-        <section>
+        <section class="mb-3 text-bg-secondary p-3">
             <h2> Destino Preferido</h2>
             <input type="radio" id="cidade">
             <label for="cidade">Cidade</label>
@@ -36,12 +38,12 @@
             <label for="montanha">Montanha</label>
 
         </section>
-        <section>
-            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <section class="mb-3">
+            <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar  o concurso TrybeTrip?</h3>
             <textarea name="Digite a resposta" id="resposta" cols="60" rows="10" maxlength="500" placeholder="Digite sua resposta aqui!"></textarea>
         </section>
-        <section>
-            <p>Qual a melhor data para realizar sua viagem?</p>
+        <section class="text-bg-secondary p-3"">
+            <h3>Qual a melhor data para realizar sua viagem?</h3>
           <label for="">Data:</label>
           <input type="date">  
         </section>
@@ -51,18 +53,18 @@
             <input type="checkbox" id="oportunidades">
             <label for="oportunidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
         </section> 
-        <section>
+        <section class="mb-3">
             <input type="checkbox" id="politicas">
-            <label for="politicas">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+            <label for="politicas"> Concordo com o uso futuro de minhas imagens para divulgação.</label>
         </section>   
         </section>
-        <section>
-         <button type="submit" name="Enviar" id="submit" disabled>Enviar</button>   
+        <section class="mb-2">
+         <button type="submit" name="Enviar" id="submit" disabled class="btn btn-secondary">Enviar</button>   
              
         </section>
         <br>
-        <section>
-            <button type="reset" name="Limpar" id="limpar">Limpar</button>
+        <section class="mb-5">
+            <button type="reset" name="Limpar" id="limpar" class="btn btn-secondary">Limpar</button>
         </section>
     </form>
     
