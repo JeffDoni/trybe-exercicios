@@ -48,7 +48,7 @@ const geraNota = (respostas, respostasEstudantes) => {
  }
  return nota
 }
-const notaFinal = (resp, respEsyudante, func) => {
-  return  `Resultado final: ${func(resp, respEsyudante)}`
+const notaFinal = (array1, array2, funcao) => {
+  return  `Resultado final: ${funcao(array1, array2)}`
 }
 console.log(notaFinal(RIGHT_ANSWERS, STUDENT_ANSWERS, geraNota))
