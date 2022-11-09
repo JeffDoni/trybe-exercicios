@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Campos</title>
+</head>
+<body>
+  <form action="">
+    <h1>Dados</h1>
+    <input type="text" name="dataEntrance" id="value" placeholder="Dados aqui">
+    <select name="campo" id="option">
+      <option value="cpf">CPF</option>
+      <option value="hexColor">hexColor</option>
+      <option value="email">email</option>
+      <option value="uuid">UUID v4</option>
+      <option value="url">url</option>
+    </select>
+    <button id="button">Validar!</button>
+  </form>
+  <p id="answer">...</p>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

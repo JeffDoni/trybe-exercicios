@@ -1,0 +1,19 @@
+{
+  "name": "exercicio1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-trybe-frontend": "^1.3.1",
+    "validator": "^13.7.0",
+    "vite": "^3.2.3"
+  },
+  "type": "module"
+}
