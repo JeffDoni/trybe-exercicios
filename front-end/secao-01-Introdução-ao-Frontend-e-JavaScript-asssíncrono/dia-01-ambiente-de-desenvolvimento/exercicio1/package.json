@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "lint":"eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
   },
   "keywords": [],
   "author": "",
