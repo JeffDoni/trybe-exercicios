@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa de Câmbio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header>
+    <h1>Casa de Câmbio</h1>
+  </header>
+  <main>
+    <section>
+    <label for="moedas">Digite a moeda:
+      <input type="text" placeholder="USD" id="moedas">
+    </label>
+    <button class="btn">Pesquisar</button>
+   </section>
+    <section id="container">
+      <h2 class="coins-title"></h2>
+      <ul class="coins"></ul>
+    </section>
+  </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
