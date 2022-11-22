@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color: aqua;
+  margin: 50px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  animation: gradient 3s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background: linear-gradient(0, rgba(2,0,36,1) 0%, rgb(199, 51, 199) 35%, rgb(8, 48, 56) 100%);
+  }
+  50% {
+      background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgb(199, 51, 110) 35%, rgb(8, 48, 56) 100%);
+  }
+  100% {
+      background: linear-gradient(100deg, rgba(2,0,36,1) 0%, rgb(131, 46, 50) 35%, rgb(8, 48, 56) 100%);
+  }
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 210px;
+  margin-right: 25px;
+}
+#containerPlayer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 210px;
+  margin-right: 20px;
+}
+
+
+#heros{
+  display: flex;
+  width: 900px;
+}
+
+img {
+  height: 400px;
+  border-radius: 30px;
+}
+
+button{
+  margin-top: 100px;
+}
+
+#nome{
+  font-size: 20px;
+  color: white;
+  margin-top: 400px;
+  
+}
+
+header {
+  color: black;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 750px) {
+  body{ 
+    width: auto;
+    margin:0;
+  }
+  img {
+    height: 200px;
+  }
+  #heros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #container{
+    margin-bottom: 0;
+  }
+  .vs{
+    margin-bottom: 100px;
+  }
+}
