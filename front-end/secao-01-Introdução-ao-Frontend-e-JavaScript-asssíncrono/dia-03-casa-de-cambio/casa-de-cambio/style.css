@@ -1,0 +1,92 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: #282C33;
+  color: white;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 900px;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  align-self: flex-start;
+}
+
+h2 {
+  font-size: 2.1em;
+  text-align: center;
+}
+
+form {
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 57px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  height: 60px;
+  justify-content: space-between;
+}
+
+input {
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  border: none;
+  width: 171px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.coins {
+  padding: 0 20px;
+  list-style: none;
+  height: 500px;
+  align-self: stretch;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.green {
+  color: #96EB95;
+}
+
+.yellow {
+  color: yellow;
+}
+
+li {
+  width: 200px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+@media screen  and (max-width: 768px){
+  body{
+    width: 500px;
+  }
+}
